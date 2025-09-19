@@ -1,0 +1,23 @@
+# ---- Global ----
+.DS_Store
+*.log
+*.tmp
+
+# ---- Node.js / Frontend (UI) ----
+UI/node_modules/
+UI/.env
+UI/.next/
+UI/dist/
+UI/build/
+UI/.cache/
+
+# ---- Java / Backend (java-ai-langchain4j) ----
+java-ai-langchain4j/target/
+java-ai-langchain4j/.classpath
+java-ai-langchain4j/.project
+java-ai-langchain4j/.settings/
+java-ai-langchain4j/.idea/
+java-ai-langchain4j/.vscode/
+
+# ---- Root-level ----
+package-lock.json
